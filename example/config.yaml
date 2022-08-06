@@ -13,7 +13,7 @@ arch:
 init: false
 ingress: true
 Ingress: 8099
-ingress_entry: /hassio
+ingress_entry: "/hassio"
 ingress_stream:	false
 panel_icon:	mdi:puzzle-star
 panel_title: Addons
