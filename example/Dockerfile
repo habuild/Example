@@ -8,8 +8,7 @@ RUN \
     curl -sSLf -o /usr/bin/tempio \
     "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_${BUILD_ARCH}" \
     \
-    apk --no-cache add \
-    nginx
+    apk --no-cache add nginx
 
 # Copy root filesystem
 COPY rootfs /
