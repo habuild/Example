@@ -12,10 +12,7 @@ arch:
   - i386
 init: false
 ingress: true
-Ingress: "8099"
-
-ingress_stream:	false
-panel_icon:	mdi:puzzle-star
+panel_icon: mdi:puzzle-star
 panel_title: Addons
 map:
   - share:rw
