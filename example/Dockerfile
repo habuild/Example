@@ -14,4 +14,4 @@ RUN    apk add --no-cache  nginx
 COPY rootfs /
 
 #Launch nginx with debug options.
-CMD [ "nginx","-g","daemon off;error_log /dev/stdout debug;" ]
+CMD [ "nginx","-g","daemon off;" ]
