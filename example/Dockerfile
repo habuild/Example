@@ -14,7 +14,7 @@ RUN \
           python3 \
               py3-pip \
       \
-      && pip3 install paho-mqtt \
+      && pip3 install paho-mqtt 
 
 # Copy root filesystem
 COPY rootfs /
