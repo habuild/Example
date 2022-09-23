@@ -8,10 +8,10 @@ RUN \
     curl -sSLf -o /usr/bin/tempio \
     "https://github.com/home-assistant/tempio/releases/download/${TEMPIO_VERSION}/tempio_${BUILD_ARCH}" 
     
-RUN    apk add --no-cache  nginx
+RUN    apk add --no-cache  nginx paho-mqtt py3-pip
 
 # Copy root filesystem
 COPY rootfs /
 
 #Launch nginx with debug options.
-CMD [ "nginx","-g","daemon off;" ]
+#CMD [ "nginx","-g","daemon off;" ]
