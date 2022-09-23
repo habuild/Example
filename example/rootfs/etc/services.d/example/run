@@ -4,7 +4,9 @@
 # s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 
-# Add your code here
+setup.py
+
+echo $pwd
 
 # Declare variables
 declare message
