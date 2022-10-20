@@ -4,9 +4,8 @@
   "slug": "absoluta",
   "description": "Add-On for interfacing with Bentel Absoluta Alarm Panels",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "application",
-  "boot": "auto",
-   "options": {
+  "init": "false",
+  "options": {
     "mqtt_broker_ip": "",
     "mqtt_username": "",
     "mqtt_password": "",
